@@ -1,4 +1,3 @@
-
 module.exports = {
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -16,7 +15,10 @@ module.exports = {
       },
       maxWidth:{
         '600': '600px'
-      }
+      },
+      cursor: {
+        pointer: 'pointer',
+      },
     },
   },
   plugins: [],
